@@ -7,6 +7,7 @@
     color: white;
     padding-top: 50px;
     /* display: flex; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 .head {
@@ -30,7 +31,7 @@
     border-radius: 10px;
     /* background-color: rgb(251, 216, 21); */
     box-shadow: 0px 3px 3px gray;
-    color: rgb(251, 216, 21);
+    color: #fbd815;
     transition: 2S;
     margin: 10px ;
 }
@@ -76,6 +77,32 @@ padding: 0px 20px;
 .decoration{
     text-decoration: none;
     padding-left: 80px;
-    color: black;
+    color: rgb(95, 12, 12);
+    font-size: large;
+    
 }
+
+
+.inffo{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 550px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    /* transition: 1s; */
+    /* box-shadow: 1px 1px 10px 1px gray; */
+    
+}
+
+.textt{
+/* text-align: center; */
+margin: 20px 0px;
+margin-top: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.parag{
+    font-size: large;
+    /* margin: 0px 20px; */
+}
+
 
