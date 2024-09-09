@@ -1,29 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./../styles/fastesttravel.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./../styles/fastesttravel.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
+
 <body>
-    <div class="main">
-        <img src="./../images/plane.jpg" height="750px" width="100%" alt="">
+  <nav>
+    <ul class="nav" >
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZiVpEJZXmQ5jKCuc2QOnkE6Uq_PoogMk6A&s"  height="50px" width="80px">
+     <li><a href="../pages/home.html" style="color: white;">Home</a></li>
+     <li><a href="../pages/about.html" style="color: white;">About</a></li>
+     <li><a href="../pages/gallery.html" style="color: white;">gallery</a></li>
+     <li><a href="../pages/tours.html"style="color: white;">tours</a></li>
+     <li><a href="../pages/services.html"style="color: white;">services</a></li>
+    <li><a href="../pages/review.html"style="color: white;">review</a></li>
+    <li><a href="../pages/contact.html"style="color: white;">contact</a></li>
+    <li><a href="../pages/signup.html"style="color: white;">sign up</a></li>
+
+    </ul>
+   </nav>
+
+  <div class="main">
+    <img src="./../images/plane.jpg" height="750px" width="100%" alt="">
+
+  </div>
+
+
+  <!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+  <div class="bg-gray-100">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+        <h2 class="text-2xl font-bold text-gray-900">Airports</h2>
+
+        <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+          <div class="group relative shadow-md rounded ">
+            <div
+              class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+              <img
+                src="https://img.freepik.com/free-photo/cinematic-style-mall_23-2151551186.jpg?t=st=1725579107~exp=1725582707~hmac=564fbde233862b76175f775c22b6d80c8bac217ad229513a9db6e6f3eba0eb5f&w=1060"
+                alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug."
+                class="h-full w-full object-cover object-center">
+            </div>
+            <h3 class="mt-6 text-sm text-gray-500">
+              <a href="#" class="px-3">
+                <span class="absolute inset-0 "></span>
+                Airport
+              </a>
+            </h3>
+            <p class="text-base font-semibold text-gray-900 px-3 pb-2">Chhatrapati Shivaji Maharaj International Airport
+              (BOM)</p>
+          </div>
+          <div class="group relative  shadow-md rounded">
+            <div
+              class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+              <img src="https://c4.wallpaperflare.com/wallpaper/7/509/160/emirates-airline-wallpaper-preview.jpg"
+                alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant."
+                class="h-full w-full object-cover object-center">
+            </div>
+            <h3 class="mt-6 text-sm text-gray-500">
+              <a href="#" class="px-3">
+                <span class="absolute inset-0"></span>
+                Airport
+              </a>
+            </h3>
+            <p class="text-base font-semibold text-gray-900 px-3">Dubai International Airport (DXB)</p>
+          </div>
+          <div class="group relative  shadow-md rounded">
+            <div
+              class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+              <img
+                src="https://media.istockphoto.com/id/480473629/photo/melbourne-airport.jpg?s=612x612&w=0&k=20&c=SM2WwfD8uiFpZAGMPFRg5BVf2qoxr5BfT-OlW19eiw8="
+                alt="Collection of four insulated travel bottles on wooden shelf."
+                class="h-full w-full object-cover object-center">
+            </div>
+            <h3 class="mt-6 text-sm text-gray-500">
+              <a href="#" class="px-3">
+                <span class="absolute inset-0"></span>
+                Airport
+              </a>
+            </h3>
+            <p class="text-base font-semibold text-gray-900 px-3">Brisbane Airport (BNE) </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="display">
+    <div class="img">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Sculpture_of_hasta_mudras_at_Indira_Gandhi_International_Airport.jpg/1200px-Sculpture_of_hasta_mudras_at_Indira_Gandhi_International_Airport.jpg"
+        onmouseover="console.log('hii')" height="400" alt="">
+    </div>
+
+    <div class="info">
+      <p> <b>Airport Name: </b> Indira Gandhi International Airport </p>
+      <p> <b>Description: </b>Indira Gandhi International Airport (IGI) is the primary international gateway to India’s
+        capital, New Delhi. <br>Named after former Prime Minister Indira Gandhi, the airport is one of the busiest and
+        most advanced in the country.br IGI is known for its modern infrastructure and efficient operations. <br> The
+        airport is divided into three terminals:
+        <br> Terminal 1 (T1), Terminal 2 (T2), Terminal 3 (T3) .
+      </p>
+      <p><b>Services:</b> Transport Services, Passenger Services, Check-In and Baggage Services, Dining and Shoppin,
+        Business Services, Special Assistance.</p>
+      <p><b> Booking: </b>Special packages and seasonal discounts available. Book directly through our website
+        or contact our reservations team for personalized offers.</p>
+      <p><b>Location: </b> Indira Gandhi International Airport, Palam, New Delhi, Delhi 110037, India. </p>
+      <p><b>Phone:</b> +91-11-25652021</p>
+
+    </div>
+
+  </div> <br> <br>
+
+  <div class="display">
+    <div class="Terminal">
+      <img
+        src="https://img.freepik.com/free-photo/industrial-park-factory-building-warehouse_1417-1928.jpg?t=st=1725777252~exp=1725780852~hmac=5da73b2bbcacdcc6c32e9ef6ff2f3e02a4a839d37bf01a688bbf825261e2256e&w=996"
+        height="300px" alt=""> <br>
+      <h3 class="text"><b>Termianl 1 (T1)</b></h3>
+      <p><b>Description :</b> Primarily serves domestic flights. It has a range of amenities, including dining options,
+        shopping outlets, and comfortable lounges.</p>
+
+
+    </div>
+
+    <div class="Terminal">
+      <img
+        src="https://img.freepik.com/free-photo/airport-terminal_1417-1452.jpg?t=st=1725777022~exp=1725780622~hmac=0dfd62b24932899731ca148bc1daeb20956df3241ac76a4d59752106f10c7f12&w=996"
+        height="300px" width="420px" alt=""> <br>
+      <h3 class="text"><b>Termianl 2 (T2)</b></h3>
+      <p><b>Description :</b>This terminal handles both domestic and international flights, although it's mostly used
+        for low-cost carriers. It also offers a variety of shops and restaurants.</p>
+
+
+    </div>
+
+    <div class="Terminal">
+      <img
+        src="https://img.freepik.com/premium-photo/experience-future-aviation-stunning-3d-render-airport-terminal-with-planes-flight-beautiful-sky_908344-37930.jpg?w=996"
+        height="300px" width="420px" alt=""> <br>
+      <h3 class="text"><b>Termianl 3 (T3)</b></h3>
+      <p><b>Description :</b>T3 features a wide array of high-end shopping, diverse dining options, and luxury lounges.
+        It is known for its sleek design and state-of-the-art facilities</p>
+
+
 
     </div>
 
 
-    <div>
-     
+
+  </div> <br>
 
 
 
 
-
-
-
-
+  <div>
+    <button class="but" onclick="confirm('Are you confirm')">
+      <a href="" class="anc" style="text-decoration: none;">Book Now</a>
+    </button>
+  </div>
+  <footer>
+    <div class="footer">
+      <div>
+        <h4>travel Info</h4>
+        <p>A good plus of traveling is that <br>often you get new skills without <br>difficulty and without even noticing it.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZiVpEJZXmQ5jKCuc2QOnkE6Uq_PoogMk6A&s" height="100px" width="150px">
+      </div>
+      <div>
+        <h4>Contacts</h4>
+       <h6>9898989898</h6>
+       <h6>shrigonda</h6>
+       <h6>ahemadnagar</h6>
+       <h6></h6>
+       
+      
+      </div>
+      <div class="link">
+        <h4>links</h4>
+        <ul>
+          <li>home</li>
+          <li>about</li>
+          <li>tours</li>
+          <li>services</li>
+          <li>gallery</li>
+          <li>review</li>
+          
+        </ul>
+      </div>
+      <div>
+        <h4>Recent Trips</h4><br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-OIBbKyouLEE-mHElwPcOyKPucJSOYq38sg&s" height="100px" width="100px">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7C0NZ32b6k4Pb1Ea_C-c75H0oI97MNEFNKg&s"  height="100px" width="100px">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4-JFDTRUHeJ0c7YP6duVgtN56JLF7esz3Cw&s"  height="100px" width="100px"><br>
+        <img style="padding-top: 10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzIETqWIlR13C75YYUyaJhy3BB_60f8aHS2g&s" height="100px" width="100px">
+       <img style="padding-top: 10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrWdVHVByX2wZ4xbzue6ZO9Y-LuQQ0T7UzA&s" height="100px" width="100px">
+        <img style="padding-top: 10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfczQ42J69jOgVgh6HE2c80UAsLmEyVDZADA&s" height="100px" width="100px">
+       <br>.
+      </div>
     </div>
-    
+
+    </footer>
+
+
+
+
+
+
+
 </body>
+
 </html>

@@ -9,6 +9,20 @@
     /* display: flex; */
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
+.nav{
+    padding: 10px ; 
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+     font-weight: bold;
+    
+}
+.nav:hover{
+    color: orange;
+}
 
 .head {
     text-align: center;
@@ -103,6 +117,19 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .parag{
     font-size: large;
     /* margin: 0px 20px; */
+}
+
+.footer{
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+.link{
+    text-align: center;
 }
 
 
