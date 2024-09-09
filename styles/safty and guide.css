@@ -13,38 +13,24 @@
     color: orange;
 }
 
-.photo{
-    background-image: url(https://img.freepik.com/free-photo/famous-eiffel-tower-paris-with-gorgeous-colors_268835-830.jpg?t=st=1725818502~exp=1725822102~hmac=054f63d42cd10ae27320009e4940863d807752c5bbe5b752d08b4ee8e636b9bc&w=996);
+.img{
+    background-image: url(https://img.freepik.com/free-vector/illustration-people-with-travel-insurance_53876-58240.jpg?t=st=1725852500~exp=1725856100~hmac=c2a7b11a3155b8a72db938bb6752ab4333c33a9cdda7f8ff7e3a211236c71138&w=900);
+    height: 700px; 
     width: 100%;
-    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
-    color: white;
-    padding-top: 250px;
-    /* display: flex; */
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    margin-top: -15px;
-}
-.headline{
-    text-align: center;
+    margin-top: -10px;
     color: #fbd815;
-    font-size: xx-large;
+    ;
 }
-.card{
-    transition: 2s;
-}
-.card:hover{
 
-    transform: scale(0.9);
-    background-color: #fbd815;
-}
 .service{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     
 }
+
 .inffo{
     /* border: 1px solid black; */
     height: 300px;
@@ -61,11 +47,15 @@
 margin: 20px 0px;
 margin-top: 10px;
 font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: x-large;
 }
 .parag{
-    font-size: large;
+    font-size: larger;
     /* margin: 0px 20px; */
 }
+
+
+
 
 
 
@@ -87,4 +77,5 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .link{
     text-align: center;
 }
+
 
