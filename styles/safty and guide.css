@@ -1,0 +1,81 @@
+.nav{
+    padding: 10px ; 
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+     font-weight: bold;
+    
+}
+.nav:hover{
+    color: orange;
+}
+
+.img{
+    background-image: url(https://img.freepik.com/free-vector/illustration-people-with-travel-insurance_53876-58240.jpg?t=st=1725852500~exp=1725856100~hmac=c2a7b11a3155b8a72db938bb6752ab4333c33a9cdda7f8ff7e3a211236c71138&w=900);
+    height: 700px; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+    color: #fbd815;
+    ;
+}
+
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.inffo{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 550px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    /* transition: 1s; */
+    /* box-shadow: 1px 1px 10px 1px gray; */
+    
+}
+
+.textt{
+/* text-align: center; */
+margin: 20px 0px;
+margin-top: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: x-large;
+}
+.parag{
+    font-size: larger;
+    /* margin: 0px 20px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+.link{
+    text-align: center;
+}
+
+

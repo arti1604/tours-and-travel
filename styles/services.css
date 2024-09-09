@@ -1,0 +1,135 @@
+.poster {
+    background-image: url(./../images/poster.jpg);
+    background-size: cover;
+    height: 750px;
+    width: 1510px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    /* display: flex; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.nav{
+    padding: 10px ; 
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+     font-weight: bold;
+    
+}
+.nav:hover{
+    color: orange;
+}
+
+.head {
+    text-align: center;
+    padding-top: -500px;
+}
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.boxx {
+    border: 1px solid gray;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    padding-top: 17px;
+    border-radius: 10px;
+    /* background-color: rgb(251, 216, 21); */
+    box-shadow: 0px 3px 3px gray;
+    color: #fbd815;
+    transition: 2S;
+    margin: 10px ;
+}
+
+.boxx:hover {
+    transform: scale(0.9);
+    background-color: black;
+    /* box-shadow: 2px 2px 10px 2px grey; */
+}
+@media screen and (max-width:300px) {
+    .boxx{
+        display: block;
+    }
+    .service{
+        display: block;
+    }
+}
+
+
+
+.services{
+    /* border: 1px solid black; */
+    height: 350px ; width: 310px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px gray;
+    margin: 10px ;
+}
+
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.text{
+    text-align: center;
+}
+.para{
+padding: 0px 20px;
+/* margin:0px 20px; */
+
+}
+.decoration{
+    text-decoration: none;
+    padding-left: 80px;
+    color: rgb(95, 12, 12);
+    font-size: large;
+    
+}
+
+
+.inffo{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 550px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    /* transition: 1s; */
+    /* box-shadow: 1px 1px 10px 1px gray; */
+    
+}
+
+.textt{
+/* text-align: center; */
+margin: 20px 0px;
+margin-top: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.parag{
+    font-size: large;
+    /* margin: 0px 20px; */
+}
+
+.footer{
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+.link{
+    text-align: center;
+}
+
+

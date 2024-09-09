@@ -1,0 +1,122 @@
+.nav{
+    padding: 10px ; 
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+     font-weight: bold;
+    
+}
+.nav:hover{
+    color: orange;
+}
+
+
+
+.display{
+    display: flex;
+    margin: 10px 20px;
+    /* box-shadow: 1px 1px 5px 1px; */
+    border-radius: 5px;
+    padding-top: 10px;
+    /* flex-wrap: wrap; */
+   
+}
+.info{
+    font-size: larger;
+    margin-left: 80px;
+    /* border: 1px solid black; */
+  
+    margin-top: 15px;
+    flex-wrap: wrap;
+ 
+}
+
+.room{ 
+    /* border: 1px solid black; */
+    height: auto;width: 450px;
+    box-shadow: 1px 1px 5px 1px;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    transition: 2s;
+    flex-wrap: wrap;
+    /* display: block; */
+    
+}
+.room:hover{
+    transform: scale(0.9);
+    background-color: #fbd815;
+}
+@media screen and (max-width:300px){
+    /* .room{
+        display: block;
+    } */
+    .display{
+        display: block;
+    }
+    .info{
+        display: block;
+    }
+}
+.text{
+    text-align: center;
+    color: #fbd815;
+}
+.card{
+    padding: 0px 5px;
+    margin: 0px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px;
+
+}
+.button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px 150px;
+    color: black;
+    background-color: #fbd815;
+    transition: 2s;
+}
+.button:hover{
+    transform: scale(0.9);
+    background-color: #fbd815;
+
+}
+.but{padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px 680px;
+    color: black;
+    background-color: #fbd815;
+    transition: 2s;
+
+}
+.but:hover{
+    transform: scale(0.9);
+    background-color: #fbd815;
+}
+.anc{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.footer{
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+.link{
+    text-align: center;
+}
+
+
+
+

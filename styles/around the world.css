@@ -1,0 +1,90 @@
+.nav{
+    padding: 10px ; 
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+     font-weight: bold;
+    
+}
+.nav:hover{
+    color: orange;
+}
+
+.photo{
+    background-image: url(https://img.freepik.com/free-photo/famous-eiffel-tower-paris-with-gorgeous-colors_268835-830.jpg?t=st=1725818502~exp=1725822102~hmac=054f63d42cd10ae27320009e4940863d807752c5bbe5b752d08b4ee8e636b9bc&w=996);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+    /* display: flex; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-top: -15px;
+}
+.headline{
+    text-align: center;
+    color: #fbd815;
+    font-size: xx-large;
+}
+.card{
+    transition: 2s;
+}
+.card:hover{
+
+    transform: scale(0.9);
+    background-color: #fbd815;
+}
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.inffo{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 550px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    /* transition: 1s; */
+    /* box-shadow: 1px 1px 10px 1px gray; */
+    
+}
+
+.textt{
+/* text-align: center; */
+margin: 20px 0px;
+margin-top: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.parag{
+    font-size: large;
+    /* margin: 0px 20px; */
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+.link{
+    text-align: center;
+}
+
